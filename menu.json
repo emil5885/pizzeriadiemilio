@@ -1,0 +1,222 @@
+[
+    {
+        "id": 10,
+        "kategori": "antipasti",
+        "navn": "Funghi ripieni",
+        "pris": 70,
+        "kort": "Fyldte portobello-svampe ",
+        "lang": "Store fyldte portobello-svampe med snittede grøntsager og parmesan.   ",
+        "oprindelse": "Italien",
+        "billede": "portobello"
+  },
+    {
+        "id": 12,
+        "kategori": "antipasti",
+        "navn": "Insalata di barbabietole rosse e ricotta",
+        "pris": 50,
+        "kort": "Rødbedesalat med ricotta",
+        "lang": "Rødbedesalat med kapers og ricotta",
+        "oprindelse": "Italien",
+        "billede": "salat"
+  },
+    {
+        "id": 14,
+        "kategori": "antipasti",
+        "navn": "Pizzette di pane al forno",
+        "pris": 45,
+        "kort": "Mini-brødpizza",
+        "lang": "Mini-brødpizza med mozzarella, hvidløg og parmesan",
+        "oprindelse": "Italien",
+        "billede": "minibroed"
+  },
+    {
+        "id": 17,
+        "kategori": "antipasti",
+        "navn": "Pizette assortite",
+        "pris": 45,
+        "kort": "Minipizzaer",
+        "lang": "Minipizzaer med ansjosfilleter, mozzarella og pesto",
+        "oprindelse": "Italien",
+        "billede": "minipizza"
+  },
+    {
+        "id": 19,
+        "kategori": "antipasti",
+        "navn": "Spiedini del Golfo",
+        "pris": 60,
+        "kort": "Mozzarellaspyd ",
+        "lang": "Spyd med ansjosfilleter og cherrytomater",
+        "oprindelse": "Italien",
+        "billede": "mozzarellaspyd"
+  },
+    {
+        "id": 2,
+        "kategori": "antipasti",
+        "navn": "Tartine di mousse al prosciutto e mousse al salmone",
+        "pris": 60,
+        "kort": "Skinke- og laksemousse",
+        "lang": "Brød med røget skinke og røget laks",
+        "oprindelse": "Italien",
+        "billede": "mousse"
+  },
+    {
+        "id": 21,
+        "kategori": "pizze",
+        "navn": "Carpaccio e prosciutto",
+        "pris": 90,
+        "kort": "Carpaccio og parma skinke",
+        "lang": "Sprød pizza med carpaccio og parma skinke",
+        "oprindelse": "Italien",
+        "billede": "carpaccio"
+  },
+    {
+        "id": 25,
+        "kategori": "pizze",
+        "navn": "Formaggio e olivo",
+        "pris": 90,
+        "kort": "Ost og oliven",
+        "lang": "Pizza med cremet ost og oliven uden sten",
+        "oprindelse": "Italien",
+        "billede": "ostogoliven"
+  },
+    {
+        "id": 34,
+        "kategori": "pizze",
+        "navn": "Patate e spinaci",
+        "pris": 85,
+        "kort": "Kartoffel og spinat",
+        "lang": "Hvid pizza med kartoffel og spinat",
+        "oprindelse": "Italien",
+        "billede": "kartoffelogspinat"
+  },
+    {
+        "id": 36,
+        "kategori": "pizze",
+        "navn": "Formaggio, proscuitto e funghi",
+        "pris": 90,
+        "kort": "Ost, skinke og champignon ",
+        "lang": "Pizza med ost, skinke og sprød champignon",
+        "oprindelse": "Italien",
+        "billede": "champignon"
+  },
+    {
+        "id": 38,
+        "kategori": "pizze",
+        "navn": "Magherita",
+        "pris": 80,
+        "kort": "Tomat og ost",
+        "lang": "Den klassiske og enkelte med tomat og ost",
+        "oprindelse": "Italien",
+        "billede": "magherita"
+  },
+    {
+        "id": 41,
+        "kategori": "pizze",
+        "navn": "Mozzarella e rucola",
+        "pris": 80,
+        "kort": "Mozarella og rucola ",
+        "lang": "Den med grønt og velkendt ost",
+        "oprindelse": "Italien",
+        "billede": "rucola"
+  },
+    {
+        "id": 42,
+        "kategori": "pizze",
+        "navn": "Mais, formaggio e broccoli",
+        "pris": 80,
+        "kort": "Majs, ost og broccoli",
+        "lang": "Pizza med touch af majs og broccoli",
+        "oprindelse": "Italien",
+        "billede": "majs"
+  },
+    {
+        "id": 43,
+        "kategori": "pizze",
+        "navn": "Prosciutto, melanzane e patate",
+        "pris": 90,
+        "kort": "Parmaskinke, aubergine og kartofler",
+        "lang": "Skinke fra parma med aubergine og kartofler",
+        "oprindelse": "Italien",
+        "billede": "aubergine"
+  },
+    {
+        "id": 44,
+        "kategori": "pizze",
+        "navn": "Patate e chorizo",
+        "pris": 90,
+        "kort": "Kartoffel og chorizopølse ",
+        "lang": "Tyndskåret kartoffel med smagfuld chorizo",
+        "oprindelse": "Italien",
+        "billede": "chorizo"
+  },
+    {
+        "id": 45,
+        "kategori": "bevande",
+        "navn": "Peroni",
+        "pris": 30,
+        "kort": "Italiensk øl",
+        "lang": "Kølig italiensk øl brygget i Rom",
+        "oprindelse": "Italien",
+        "billede": "peroni"
+  },
+    {
+        "id": 52,
+        "kategori": "bevande",
+        "navn": "Rosato Toscana",
+        "pris": 80,
+        "kort": "Italiensk rosévin",
+        "lang": "Smafuld rosévin fra San Lorenzo",
+        "oprindelse": "Italien",
+        "billede": "rose"
+  },
+    {
+        "id": 54,
+        "kategori": "bevande",
+        "navn": "San Pellegrino",
+        "pris": 30,
+        "kort": "Italiensk vand med bobler ",
+        "lang": "Den i kender med tilpas mængde af bobler",
+        "oprindelse": "Italien",
+        "billede": "danskvand"
+  },
+    {
+        "id": 55,
+        "kategori": "bevande",
+        "navn": "Poesia Bianco",
+        "pris": 80,
+        "kort": "Italiensk hvidvin ",
+        "lang": "Hvidvin med intens duft af blomster og toner af honningsmag",
+        "oprindelse": "Italien",
+        "billede": "hvidvin"
+  },
+    {
+        "id": 60,
+        "kategori": "bevande",
+        "navn": "Mazzati ",
+        "pris": 30,
+        "kort": "Italiensk øl ",
+        "lang": "Kølig øl fra Lagundo ",
+        "oprindelse": "Italien",
+        "billede": "mazzatti"
+  },
+    {
+        "id": 62,
+        "kategori": "bevande",
+        "navn": "San Pellegrino aranciata",
+        "pris": 25,
+        "kort": "Italiensk sodavand ",
+        "lang": "Velkendt italiensk sodavand med smag af sicilianske appelsiner ",
+        "oprindelse": "Italien",
+        "billede": "sodavand"
+  },
+    {
+        "id": 65,
+        "kategori": "bevande",
+        "navn": "Villa d'Angelo",
+        "pris": 80,
+        "kort": "Italiensk rødvin",
+        "lang": "Rødvin fra den lille by Rionero In Vulture ",
+        "oprindelse": "Italien",
+        "billede": "roedvin"
+  }
+]

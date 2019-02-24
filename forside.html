@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizzeria Di Emilio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <style>
+        header {
+            background-color: #BEC4B8;
+        }
+
+        body {
+            background-color: #BEC4B8;
+            width: 100%;
+
+        }
+
+        .imglogo {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 30%;
+            z-index: 0;
+        }
+
+        /*
+.retter {
+width: 100%;
+padding: 5px;
+background-color: #BEC4B8;
+position: fixed;
+margin: 5px;
+min-width: 500px;
+
+}
+*/
+
+        .valgt {
+            background-color: #CE3132;
+        }
+
+
+        img {
+            width: 100%;
+            background-color: #BEC4B8;
+        }
+
+        /*
+        #liste {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: #BEC4B8;
+        }
+*/
+
+        .filter {
+            border: black;
+            font-family: mistral;
+            font-size: 2em;
+            background-color: #BEC4B8;
+        }
+
+
+
+        #luk {
+            box-sizing: border-box;
+            text-align: right;
+            padding-right: 1em;
+        }
+
+        #luk button {
+            font-size: 2em;
+        }
+
+        #popup {
+            width: 100vw;
+            background-color: #BEC4B8;
+            display: none;
+            text-align: center;
+            position: fixed;
+        }
+
+        .nav {
+
+            width: 100%;
+            height: 80px;
+            font-family: mistral;
+            text-align: center;
+        }
+
+        .nav>a {
+            display: inline-block;
+            height: 110px;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            font-family: mistral;
+            font-size: 1.5em;
+            padding: 2vw;
+        }
+
+        #funnysuits .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+            /*
+
+margin-left: 200px;
+margin-right: 200px;
+*/
+
+        }
+
+        #funnysuits .column {
+            flex-grow: 0.5;
+            flex-basis: 450px;
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        h1 {
+            font-family: Mistral;
+            font-size: 1.5rem;
+            color: black;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #footer_colour {
+
+            bottom: 0;
+            color: black;
+            background-color: #00904A;
+            width: 100%;
+            z-index: 0;
+            font-family: mistral;
+            font-size: 2rem;
+            height: 5%;
+            position: fixed;
+            text-align: center;
+
+        }
+
+        .hidden {
+
+            transform: translateY(-200%);
+            margin-bottom: -105vw;
+
+        }
+
+        #menuknap {
+
+
+            cursor: pointer;
+            position: absolute;
+            left: 0vw;
+            font-size: 5vw;
+            width: 13vw;
+
+
+        }
+
+        /* unvisited link */
+        nav a:link {
+            color: black;
+        }
+
+        /* visited link */
+        nav a:visited {
+            color: black;
+        }
+
+        /* mouse over link */
+        nav a:hover {
+            color: white;
+            background-color: black;
+        }
+
+        /* selected link */
+        nav a:active {
+            color: black;
+        }
+
+        header {
+            width: 100%;
+
+
+        }
+
+        nav {
+            text-align: center;
+            font-family: 'Prata', sans-serif;
+
+        }
+
+        #top_menu {
+            width: 100%;
+            height: 80px;
+            font-family: mistral;
+            text-align: center;
+
+        }
+
+        #top_menu>a {
+            display: inline-block;
+            height: 110px;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            font-family: mistral;
+            font-size: 1.5em;
+            padding: 2vw;
+
+        }
+
+        #baggrundsfarve {
+            width: 35%;
+
+            background-color: #00904A;
+
+
+        }
+
+        nav a {
+            display: block;
+            font-size: 0.8rem;
+            margin: 1rem;
+            padding: 10px;
+            margin-right: 15vw;
+
+        }
+
+        @media only screen and (min-width: 375px) {}
+
+        @media only screen and (min-width: 768px) {
+
+            #menuknap {
+                display: none;
+            }
+
+        }
+
+        @media only screen and (max-width: 767px) {
+
+            #top_menu {
+                display: none;
+            }
+
+        }
+
+
+
+        @media only screen and (min-width: 768px) {
+
+            .sectionwrapper {
+                margin: 0px 0px 0px 50px;
+            }
+
+        }
+
+        @media only screen and (min-width: 1280px) {
+
+            .sectionwrapper {
+                margin: 0px 0px 0px 0px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div id="popup">
+        <div id="luk"><button>X</button></div>
+        <div id="indhold">
+
+
+        </div>
+
+    </div>
+
+
+
+    <header>
+
+        <div id="top_menu">
+
+            <a href="forside.html">VELKOMMEN</a>
+            <a href="menu.html">MENU</a>
+            <a href="kontakt.html">KONTAKT</a>
+            <a href="tider.html">ÅBNINGSTIDER</a>
+            <a href="booking.html">BOOKING</a>
+
+
+        </div>
+        <nav class="nav">
+
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <div id="baggrundsfarve"><a href="forside.html">VELKOMMEN</a>
+                    <a href="menu.html">MENU</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                    <a href="tider.html">ÅBNINGSTIDER</a>
+                    <a href="booking.html">BOOKING</a>
+                </div>
+            </div>
+        </nav>
+
+        <img class="imglogo" src="img/logo.svg" alt="">
+
+
+
+
+
+    </header>
+
+
+
+    <section id="funnysuits">
+        <div class="sectionwrapper">
+            <div class="column">
+                <h1>VELKOMMEN</h1> <br>
+
+                <p>Velkommen til Pizzeria Di Emilio.
+
+                    Her dyrker vi de italienske traditioner. Et besøg her, er mere end bare middagen. Hele restauranten er renoveret i varme toner, italiensk borddækning og med en stenovn, så du kan se din pizza blive lavet fra bunden.</p>
+
+            </div>
+            <div class="column">
+                <img src="img/stenovn.jpg" alt="funny suits">
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div id="footer_colour">
+            <div id="hent_cv">BOOK BORD
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script>
+        window.addEventListener("load", sidenVises);
+
+        function sidenVises() {
+
+            console.log("siden vises!")
+
+            //registrer klik på menu-knap
+            document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+        }
+
+
+        function toggleMenu() {
+
+            console.log("Toggle menu")
+            document.querySelector("#menu").classList.toggle("hidden");
+
+            let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
+            if (erSkjult == true) {
+
+
+                //menuen er nu skjult - ændr menuknap til lll
+
+                document.querySelector("#menuknap").textContent = "☰"
+
+            } else {
+                //menuen er nu vist - ændre menukanp til X
+                document.querySelector("#menuknap").textContent = "☓";
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
