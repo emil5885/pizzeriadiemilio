@@ -26,6 +26,8 @@
             z-index: 0;
         }
 
+
+
         /*
 .retter {
 width: 100%;
@@ -73,7 +75,6 @@ min-width: 500px;
 
         #luk button {
             font-size: 2em;
-
         }
 
         #popup {
@@ -85,6 +86,7 @@ min-width: 500px;
         }
 
         .nav {
+
             width: 100%;
             height: 5px;
             font-family: mistral;
@@ -93,7 +95,7 @@ min-width: 500px;
 
         .nav>a {
             display: inline-block;
-            height: 110px;
+            height: 60px;
             text-decoration: none;
             text-align: center;
             color: black;
@@ -117,7 +119,7 @@ margin-right: 200px;
             flex-grow: 0.5;
             flex-basis: 450px;
             margin: 4vw;
-            padding: 1vw;
+            padding: 3vw;
         }
 
         h1 {
@@ -166,7 +168,6 @@ margin-bottom: -105vw;
 
         }
 
-        /* unvisited link */
         nav a:link {
             color: #00904A;
         }
@@ -206,7 +207,7 @@ margin-bottom: -105vw;
 
         #top_menu>a {
             display: inline-block;
-            height: 60px;
+            height: 110px;
             text-decoration: none;
             text-align: center;
             color: black;
@@ -218,6 +219,7 @@ margin-bottom: -105vw;
 
         #baggrundsfarve {
             width: 35%;
+
             background-color: #BEC4B8;
             z-index: 1000;
 
@@ -237,7 +239,13 @@ margin-bottom: -105vw;
             position: absolute;
         }
 
-        @media only screen and (min-width: 375px) {}
+        @media only screen and (min-width: 375px) {
+
+            .column {
+                text-align: center;
+            }
+
+        }
 
         @media only screen and (min-width: 768px) {
 
@@ -252,7 +260,6 @@ margin-bottom: -105vw;
             #top_menu {
                 display: none;
             }
-
 
         }
 
@@ -273,6 +280,7 @@ margin-bottom: -105vw;
             }
 
         }
+
     </style>
 </head>
 
@@ -302,13 +310,11 @@ margin-bottom: -105vw;
 
 
         </div>
-
         <nav class="nav">
 
             <div id="menuknap">☰</div>
             <div id="menu" class="hidden">
-                <div id="baggrundsfarve">
-                    <a href="forside.html">VELKOMMEN</a>
+                <div id="baggrundsfarve"><a href="forside.html">VELKOMMEN</a>
                     <a href="menu.html">MENU</a>
                     <a href="kontakt.html">KONTAKT</a>
                     <a href="tider.html">ÅBNINGSTIDER</a>
@@ -316,8 +322,6 @@ margin-bottom: -105vw;
                 </div>
             </div>
         </nav>
-
-        <img class="imglogo" src="img/logo.svg" alt="">
 
 
 
@@ -330,16 +334,18 @@ margin-bottom: -105vw;
     <section id="funnysuits">
         <div class="sectionwrapper">
             <div class="column">
-                <h1>VELKOMMEN</h1> <br>
+                <h1>KONTAKTOPLYSNINGER</h1>
 
-                <p>Velkommen til Pizzeria Di Emilio.
-
-                    Her dyrker vi de italienske traditioner. Et besøg her, er mere end bare middagen. Hele restauranten er renoveret i varme toner, italiensk borddækning og med en stenovn, så du kan se din pizza blive lavet fra bunden.</p>
+                <p>Via del Emilio 3</p>
+                <p>1050 København K</p>
+                <p>+45 60 10 20 30</p>
+                <p>pizzeriadiemilio@italia.it</p>
 
             </div>
             <div class="column">
+
                 <a href="forside.html">
-                    <img src="img/stenovn.jpg" alt="funny suits">
+                    <img class="kontaktlogo" src="img/kontaktlogo.svg" alt="">
                 </a>
             </div>
         </div>
@@ -388,6 +394,7 @@ margin-bottom: -105vw;
                 document.querySelector("#menuknap").textContent = "☓";
             }
         }
+
     </script>
 
 
